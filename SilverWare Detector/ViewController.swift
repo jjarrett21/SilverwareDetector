@@ -107,7 +107,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             print("No result")
             return
         }
-        let classifications = observations[0...observations.count]
+        let classifications = observations[0...2]
+            
             .compactMap({ $0 as? VNClassificationObservation})
             .map({"\($0.identifier) \(($0.confidence * 100).rounded())"})
             .joined(separator: "\n")
