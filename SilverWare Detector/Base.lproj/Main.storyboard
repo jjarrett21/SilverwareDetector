@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8d0-zU-MU0">
-                                <rect key="frame" x="16" y="53" width="343" height="460"/>
+                                <rect key="frame" x="16" y="73" width="343" height="502"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpx-we-eaS">
-                                <rect key="frame" x="82" y="589" width="211" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpx-we-eaS">
+                                <rect key="frame" x="166.5" y="602" width="42" height="20.5"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -32,15 +32,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dpx-we-eaS" firstAttribute="centerX" secondItem="8d0-zU-MU0" secondAttribute="centerX" id="5P6-XX-Y4d"/>
-                            <constraint firstItem="dpx-we-eaS" firstAttribute="top" secondItem="8d0-zU-MU0" secondAttribute="bottom" constant="76" id="8lC-Ta-mEa"/>
-                            <constraint firstItem="dpx-we-eaS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="CIa-rI-d6L"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8d0-zU-MU0" secondAttribute="trailing" constant="16" id="EMF-fx-nNH"/>
-                            <constraint firstItem="8d0-zU-MU0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="FlN-Li-q4O"/>
-                            <constraint firstItem="8d0-zU-MU0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Hd0-yZ-4rX"/>
-                            <constraint firstItem="8d0-zU-MU0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Tku-yW-RrG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8d0-zU-MU0" secondAttribute="bottom" constant="154" id="lZY-H4-COr"/>
-                            <constraint firstItem="8d0-zU-MU0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mbX-xx-nUv"/>
+                            <constraint firstItem="dpx-we-eaS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3WJ-mo-ptp"/>
+                            <constraint firstItem="dpx-we-eaS" firstAttribute="centerX" secondItem="8d0-zU-MU0" secondAttribute="centerX" id="4C9-9V-KRE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8d0-zU-MU0" secondAttribute="bottom" constant="92" id="I5S-xG-2gp"/>
+                            <constraint firstItem="8d0-zU-MU0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="Nk4-Kl-Awh"/>
+                            <constraint firstItem="8d0-zU-MU0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XrH-rw-e5t"/>
+                            <constraint firstItem="dpx-we-eaS" firstAttribute="top" secondItem="8d0-zU-MU0" secondAttribute="bottom" constant="27" id="XzR-tz-b7n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dpx-we-eaS" secondAttribute="trailing" id="eJp-o0-DQb"/>
+                            <constraint firstItem="dpx-we-eaS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gSb-rH-mGP"/>
+                            <constraint firstItem="8d0-zU-MU0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="u3e-6d-TYJ"/>
+                            <constraint firstItem="dpx-we-eaS" firstAttribute="top" secondItem="8d0-zU-MU0" secondAttribute="bottom" constant="27" id="zMx-QM-kAU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

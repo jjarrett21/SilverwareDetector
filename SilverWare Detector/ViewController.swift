@@ -33,6 +33,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        resultView.sizeToFit()
         // Do any additional setup after loading the view, typically from a nib.
         guard let camera = AVCaptureDevice.default(for: .video) else {
             fatalError("No video camera available")
