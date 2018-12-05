@@ -12,7 +12,7 @@
 		9A0B03FE21B38C7C0066294C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B03FC21B38C7C0066294C /* Main.storyboard */; };
 		9A0B040021B38C7E0066294C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B03FF21B38C7E0066294C /* Assets.xcassets */; };
 		9A0B040321B38C7E0066294C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B040121B38C7E0066294C /* LaunchScreen.storyboard */; };
-		9A0B040B21B393340066294C /* silverware.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B040A21B393340066294C /* silverware.mlmodel */; };
+		9AD209EF21B77B86002CB2F2 /* silverware.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9AD209EE21B77B85002CB2F2 /* silverware.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		9A0B03FF21B38C7E0066294C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0B040221B38C7E0066294C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A0B040421B38C7E0066294C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A0B040A21B393340066294C /* silverware.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = silverware.mlmodel; sourceTree = "<group>"; };
+		9AD209EE21B77B85002CB2F2 /* silverware.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = silverware.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		9A0B03F721B38C7C0066294C /* SilverWare Detector */ = {
 			isa = PBXGroup;
 			children = (
-				9A0B040A21B393340066294C /* silverware.mlmodel */,
+				9AD209EE21B77B85002CB2F2 /* silverware.mlmodel */,
 				9A0B03F821B38C7C0066294C /* AppDelegate.swift */,
 				9A0B03FA21B38C7C0066294C /* ViewController.swift */,
 				9A0B03FC21B38C7C0066294C /* Main.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0B040B21B393340066294C /* silverware.mlmodel in Sources */,
+				9AD209EF21B77B86002CB2F2 /* silverware.mlmodel in Sources */,
 				9A0B03FB21B38C7C0066294C /* ViewController.swift in Sources */,
 				9A0B03F921B38C7C0066294C /* AppDelegate.swift in Sources */,
 			);
