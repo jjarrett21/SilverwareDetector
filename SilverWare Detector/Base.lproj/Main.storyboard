@@ -23,25 +23,24 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpx-we-eaS">
-                                <rect key="frame" x="39" y="521" width="297" height="97"/>
+                                <rect key="frame" x="82" y="589" width="211" height="21"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="97" id="vIg-h9-VnK"/>
-                                    <constraint firstAttribute="width" constant="297" id="wVa-NQ-l6b"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dpx-we-eaS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="23" id="6sR-vU-0h5"/>
+                            <constraint firstItem="dpx-we-eaS" firstAttribute="centerX" secondItem="8d0-zU-MU0" secondAttribute="centerX" id="5P6-XX-Y4d"/>
+                            <constraint firstItem="dpx-we-eaS" firstAttribute="top" secondItem="8d0-zU-MU0" secondAttribute="bottom" constant="76" id="8lC-Ta-mEa"/>
+                            <constraint firstItem="dpx-we-eaS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="CIa-rI-d6L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8d0-zU-MU0" secondAttribute="trailing" constant="16" id="EMF-fx-nNH"/>
                             <constraint firstItem="8d0-zU-MU0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="FlN-Li-q4O"/>
                             <constraint firstItem="8d0-zU-MU0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Hd0-yZ-4rX"/>
-                            <constraint firstItem="dpx-we-eaS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="501" id="Lc5-io-Jtr"/>
                             <constraint firstItem="8d0-zU-MU0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Tku-yW-RrG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8d0-zU-MU0" secondAttribute="bottom" constant="154" id="lZY-H4-COr"/>
+                            <constraint firstItem="8d0-zU-MU0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mbX-xx-nUv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
